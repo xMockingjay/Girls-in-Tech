@@ -1,0 +1,332 @@
+[
+  {
+    "order": {
+      "id": 31781
+    },
+    "item": {
+      "id": 26551,
+      "name": "Handcrafted Soft Tuna",
+      "description": "withdrawal azure Handmade",
+      "quantity": 45,
+      "unitPrice": 7.244,
+      "totalPrice": "totalPrice()",
+      "discount": 27.74
+    },
+    "merchant": {
+      "name": "Reynolds - Goldner",
+      "cnpj": "Veum and Sons",
+      "adress": {
+        "country": "South Georgia and the South Sandwich Islands",
+        "state": "IA",
+        "city":"Roswell",
+        "neighborhood": "Rhode Island",
+        "streetName": "Will Branch",
+        "number": 63178,
+        "postalCode": 00394,
+        "coordenates": {
+          "latitude": -71.1353,
+          "longitude": 29.0286
+        }
+      }
+    },
+    "cart": {
+      "id": 95468,
+      "subtotal": "cartSubtotal()",
+      "total": "cartTotal()"
+    },
+    "paymentsData": [
+      {
+        "method": "DEBIT",
+        "code": "368",
+        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
+      },
+      {
+        "method": "CREDIT",
+        "code": "412",
+        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+      }
+    ],
+    "paymentsCharges": {
+      "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
+      "total": "[FUNCTION_HERE] soma dos items com descontos",
+      "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
+      "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
+      "change": "[FUNCTION_HERE] valor do troco devolvido"
+    },
+    "customer": {
+      "firstName": "Miss Maxine Harber",
+      "displayName": "Gayle Blick",
+      "lastName": "Wiegand",
+      "phoneNumber": "1-999-984-9782",
+      "email": "Green55@yahoo.com",
+      "country": "Cuba",
+      "neighborhoord": "Arizona"
+    }
+  },
+  {
+    "order": {
+      "id": 17476
+    },
+    "item": {
+      "id": 12776,
+      "name": "Rustic Soft Bacon",
+      "description": "data-warehouse Dollar Chips",
+      "quantity": 69,
+      "unitPrice": 13.388,
+      "totalPrice": "totalPrice()",
+      "discount": 44.25
+    },
+    "merchant": {
+      "name": "Schamberger LLC",
+      "cnpj": "Davis, Stanton and Bogisich",
+      "adress": {
+        "country": "Saint Lucia",
+        "state": "VA",
+        "city":"Battle Creek",
+        "neighborhood": "Mississipi",
+        "streetName": "Wolf Centers",
+        "number": 43554,
+        "postalCode": 20711,
+        "coordenates": {
+          "latitude": 87.3354,
+          "longitude": -153.4658
+        }
+      }
+    },
+    "cart": {
+      "id": 12554,
+      "subtotal": "cartSubTotal()",
+      "total": "cartTotal()"
+    },
+    "paymentsData": [
+      {
+        "method": "CASH",
+        "code": "412",
+        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
+      },
+      {
+        "method": "CASH",
+        "code": "994",
+        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+      }
+    ],
+    "paymentsCharges": {
+      "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
+      "total": "[FUNCTION_HERE] soma dos items com descontos",
+      "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
+      "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
+      "change": "[FUNCTION_HERE] valor do troco devolvido"
+    },
+    "customer": {
+      "firstName": "Heidi Russel",
+      "displayName": "Jackie Harris",
+      "lastName": "Hackett",
+      "phoneNumber": "1-475-855-4074",
+      "email": "Aditya.Thompson@gmail.com",
+      "country": "Monaco",
+      "neighborhoord": "Wyoming"
+    }
+  },
+  {
+    "order": {
+      "id": 47884
+    },
+    "item": {
+      "id": 19757,
+      "name": "Refined Fresh Bacon",
+      "description": "Ranch Associate infrastructure",
+      "quantity": 146,
+      "unitPrice": 37.355,
+      "totalPrice": "totalPrice()",
+      "discount": 35.9
+    },
+    "merchant": {
+      "name": "Hane, Ratke and Reichel",
+      "cnpj": "Casper, Abbott and Waters",
+      "adress": {
+        "country": "Chile",
+        "state": "HI",
+        "city":"Greenville",
+        "neighborhood": "Maine",
+        "streetName": "Jevon Prairie",
+        "number": 8252,
+        "postalCode": "89228-5193",
+        "coordenates": {
+          "latitude": -79.8072,
+          "longitude": -44.6819
+        }
+      }
+    },
+    "cart": {
+      "id": 26971,
+      "subtotal": "cartTotal()",
+      "total": "cartSubTotal()"
+    },
+    "paymentsData": [
+      {
+        "method": "CASH",
+        "code": "994",
+        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
+      },
+      {
+        "method": "VOUCHER",
+        "code": "368",
+        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+      }
+    ],
+    "paymentsCharges": {
+      "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
+      "total": "[FUNCTION_HERE] soma dos items com descontos",
+      "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
+      "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
+      "change": "[FUNCTION_HERE] valor do troco devolvido"
+    },
+    "customer": {
+      "firstName": "Mrs. Kurt Jacobs",
+      "displayName": "John Gerhold",
+      "lastName": "Sauer",
+      "phoneNumber": "1-372-497-2267",
+      "email": "Miles69@hotmail.com",
+      "country": "Tokelau",
+      "neighborhoord": "Washington"
+    }
+  },
+  {
+    "order": {
+      "id": 37225
+    },
+    "item": {
+      "id": 70861,
+      "name": "Licensed Rubber Cheese",
+      "description": "navigate Credit Sports",
+      "quantity": 91,
+      "unitPrice": 36.07,
+      "totalPrice": "totalPrice()",
+      "discount": 29.89
+    },
+    "merchant": {
+      "name": "Wiza Inc",
+      "cnpj": "Stiedemann LLC",
+      "adress": {
+        "country": "Oman",
+        "state": "NV",
+        "city":"San Jose",
+        "neighborhood": "North Dakota",
+        "streetName": "BernierForks",
+        "number": 25419,
+        "postalCode": 75083,
+        "coordenates": {
+          "latitude": -60.3560,
+          "longitude": -84.5374
+        }
+      }
+    },
+    "cart": {
+      "id": 87604,
+      "subtotal": "cartSubTotal()",
+      "total": "cartTotal()"
+    },
+    "paymentsData": [
+      {
+        "method": "VOUCHER",
+        "code": "106",
+        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
+      },
+      {
+        "method": "DEBIT",
+        "code": "412",
+        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+      }
+    ],
+    "paymentsCharges": {
+      "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
+      "total": "[FUNCTION_HERE] soma dos items com descontos",
+      "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
+      "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
+      "change": "[FUNCTION_HERE] valor do troco devolvido"
+    },
+    "customer": {
+      "firstName": "Guy McKenzie",
+      "displayName": "Antonio Auer",
+      "lastName": "Leuschke",
+      "phoneNumber": "1-944-351-7279",
+      "email": "Lea.Yost46@hotmail.com",
+      "country": "Republic of Korea",
+      "neighborhoord": "Kansas"
+    }
+  },
+  {
+    "order": {
+      "id": 22198
+    },
+    "item": {
+      "id": 34532,
+      "name": "Gorgeous Steel Towels",
+      "description": "Small throughput Automotive",
+      "quantity": 46,
+      "unitPrice": 60.847,
+      "totalPrice": "totalPrice()",
+      "discount": 41.98
+    },
+    "merchant": {
+      "name": "Langosh LLC",
+      "cnpj": "Dach Inc",
+      "adress": {
+        "country": "Martinique",
+        "state": "OK",
+        "city":"Quincy",
+        "neighborhood": "Alabama",
+        "streetName": "Shyanne Trail",
+        "number": 66249,
+        "postalCode": 65192,
+        "coordenates": {
+          "latitude": -31.3972,
+          "longitude": 140.3959
+        }
+      }
+    },
+    "cart": {
+      "id": 70656,
+      "subtotal": "cartSubTotal()",
+      "total": "cartTotal()"
+    },
+    "paymentsData": [
+      {
+        "method": "VOUCHER",
+        "code": "994",
+        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
+      },
+      {
+        "method": "DEBIT",
+        "code": "994",
+        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+      }
+    ],
+    "paymentsCharges": {
+      "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
+      "total": "[FUNCTION_HERE] soma dos items com descontos",
+      "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
+      "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
+      "change": "[FUNCTION_HERE] valor do troco devolvido"
+    },
+    "customer": {
+      "firstName": "Mr. Sophie Davis",
+      "displayName": "Luis Howe",
+      "lastName": "Lowe",
+      "phoneNumber": "1-339-356-5094",
+      "email": "Fanny_Mueller@gmail.com",
+      "country": "Republic of Korea",
+      "neighborhoord": "Oregon"
+    }
+  }
+]
