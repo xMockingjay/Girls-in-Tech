@@ -22,7 +22,7 @@
         "neighborhood": "Rhode Island",
         "streetName": "Will Branch",
         "number": 63178,
-        "postalCode": 00394,
+        "postalCode": 394,
         "coordenates": {
           "latitude": -71.1353,
           "longitude": 29.0286
@@ -34,26 +34,28 @@
       "subtotal": "cartSubtotal()",
       "total": "cartTotal()"
     },
-    "paymentsData": [
-      {
-        "method": "DEBIT",
-        "code": "368",
-        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
-      },
-      {
-        "method": "CREDIT",
-        "code": "412",
-        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+    "payments": {
+      "payment": [
+        {
+          "method": "DEBIT",
+          "code": "368",
+          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
+        },
+        {
+          "method": "CREDIT",
+          "code": "412",
+          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+        }
+      ],
+      "charges": {
+        "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
+        "total": "[FUNCTION_HERE] soma dos items com descontos",
+        "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
+        "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
+        "change": "[FUNCTION_HERE] valor do troco devolvido"
       }
-    ],
-    "paymentsCharges": {
-      "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
-      "total": "[FUNCTION_HERE] soma dos items com descontos",
-      "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
-      "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
-      "change": "[FUNCTION_HERE] valor do troco devolvido"
     },
     "customer": {
       "firstName": "Miss Maxine Harber",
@@ -100,26 +102,28 @@
       "subtotal": "cartSubTotal()",
       "total": "cartTotal()"
     },
-    "paymentsData": [
-      {
-        "method": "CASH",
-        "code": "412",
-        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
-      },
-      {
-        "method": "CASH",
-        "code": "994",
-        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+    "payments": {
+      "payment": [
+        {
+          "method": "CASH",
+          "code": "412",
+          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
+        },
+        {
+          "method": "CASH",
+          "code": "994",
+          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+        }
+      ],
+      "charges": {
+        "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
+        "total": "[FUNCTION_HERE] soma dos items com descontos",
+        "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
+        "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
+        "change": "[FUNCTION_HERE] valor do troco devolvido"
       }
-    ],
-    "paymentsCharges": {
-      "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
-      "total": "[FUNCTION_HERE] soma dos items com descontos",
-      "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
-      "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
-      "change": "[FUNCTION_HERE] valor do troco devolvido"
     },
     "customer": {
       "firstName": "Heidi Russel",
@@ -166,26 +170,28 @@
       "subtotal": "cartTotal()",
       "total": "cartSubTotal()"
     },
-    "paymentsData": [
-      {
-        "method": "CASH",
-        "code": "994",
-        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
-      },
-      {
-        "method": "VOUCHER",
-        "code": "368",
-        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+    "payments": {
+      "payment": [
+        {
+          "method": "CASH",
+          "code": "994",
+          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
+        },
+        {
+          "method": "VOUCHER",
+          "code": "368",
+          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+        }
+      ],
+      "charges": {
+        "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
+        "total": "[FUNCTION_HERE] soma dos items com descontos",
+        "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
+        "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
+        "change": "[FUNCTION_HERE] valor do troco devolvido"
       }
-    ],
-    "paymentsCharges": {
-      "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
-      "total": "[FUNCTION_HERE] soma dos items com descontos",
-      "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
-      "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
-      "change": "[FUNCTION_HERE] valor do troco devolvido"
     },
     "customer": {
       "firstName": "Mrs. Kurt Jacobs",
@@ -232,26 +238,28 @@
       "subtotal": "cartSubTotal()",
       "total": "cartTotal()"
     },
-    "paymentsData": [
-      {
-        "method": "VOUCHER",
-        "code": "106",
-        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
-      },
-      {
-        "method": "DEBIT",
-        "code": "412",
-        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+    "payments": {
+      "payment": [
+        {
+          "method": "VOUCHER",
+          "code": "106",
+          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
+        },
+        {
+          "method": "DEBIT",
+          "code": "412",
+          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+        }
+      ],
+      "charges": {
+        "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
+        "total": "[FUNCTION_HERE] soma dos items com descontos",
+        "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
+        "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
+        "change": "[FUNCTION_HERE] valor do troco devolvido"
       }
-    ],
-    "paymentsCharges": {
-      "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
-      "total": "[FUNCTION_HERE] soma dos items com descontos",
-      "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
-      "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
-      "change": "[FUNCTION_HERE] valor do troco devolvido"
     },
     "customer": {
       "firstName": "Guy McKenzie",
@@ -298,26 +306,28 @@
       "subtotal": "cartSubTotal()",
       "total": "cartTotal()"
     },
-    "paymentsData": [
-      {
-        "method": "VOUCHER",
-        "code": "994",
-        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
-      },
-      {
-        "method": "DEBIT",
-        "code": "994",
-        "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-        "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+    "payments": {
+      "payment": [
+        {
+          "method": "VOUCHER",
+          "code": "994",
+          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
+        },
+        {
+          "method": "DEBIT",
+          "code": "994",
+          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
+          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+        }
+      ],
+      "charges": {
+        "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
+        "total": "[FUNCTION_HERE] soma dos items com descontos",
+        "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
+        "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
+        "change": "[FUNCTION_HERE] valor do troco devolvido"
       }
-    ],
-    "paymentsCharges": {
-      "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
-      "total": "[FUNCTION_HERE] soma dos items com descontos",
-      "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
-      "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
-      "change": "[FUNCTION_HERE] valor do troco devolvido"
     },
     "customer": {
       "firstName": "Mr. Sophie Davis",
