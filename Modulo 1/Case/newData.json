@@ -9,7 +9,7 @@
       "description": "withdrawal azure Handmade",
       "quantity": 45,
       "unitPrice": 7.244,
-      "totalPrice": "totalPrice()",
+      "totalPrice": 325.98,
       "discount": 27.74
     },
     "merchant": {
@@ -31,30 +31,30 @@
     },
     "cart": {
       "id": 95468,
-      "subtotal": "cartSubtotal()",
-      "total": "cartTotal()"
+      "subtotal": 325.98,
+      "total": 298.24
     },
     "payments": {
       "payment": [
         {
           "method": "DEBIT",
           "code": "368",
-          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
+          "value": 98.4192,
+          "changeFor": 0
         },
         {
           "method": "CREDIT",
           "code": "412",
-          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+          "value": 199.8208,
+          "changeFor": 0
         }
       ],
       "charges": {
-        "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
-        "total": "[FUNCTION_HERE] soma dos items com descontos",
-        "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
-        "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
-        "change": "[FUNCTION_HERE] valor do troco devolvido"
+        "subTotal": 325.98,
+        "total": 298.24,
+        "totalDiscounts": 27.74,
+        "totalInCash": 0,
+        "change": 0
       }
     },
     "customer": {
@@ -77,7 +77,7 @@
       "description": "data-warehouse Dollar Chips",
       "quantity": 69,
       "unitPrice": 13.388,
-      "totalPrice": "totalPrice()",
+      "totalPrice": 923.772,
       "discount": 44.25
     },
     "merchant": {
@@ -99,30 +99,30 @@
     },
     "cart": {
       "id": 12554,
-      "subtotal": "cartSubTotal()",
-      "total": "cartTotal()"
+      "subtotal": 923.772,
+      "total": 879.522
     },
     "payments": {
       "payment": [
         {
           "method": "CASH",
           "code": "412",
-          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
+          "value": 290.2423,
+          "changeFor": 310.5592
         },
         {
           "method": "CASH",
           "code": "994",
-          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+          "value": 589.2797,
+          "changeFor": 654.1005
         }
       ],
       "charges": {
-        "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
-        "total": "[FUNCTION_HERE] soma dos items com descontos",
-        "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
-        "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
-        "change": "[FUNCTION_HERE] valor do troco devolvido"
+        "subTotal": 923.772,
+        "total": 879.522,
+        "totalDiscounts": 44.25,
+        "totalInCash": 879.522,
+        "change": 85.1377
       }
     },
     "customer": {
@@ -145,7 +145,7 @@
       "description": "Ranch Associate infrastructure",
       "quantity": 146,
       "unitPrice": 37.355,
-      "totalPrice": "totalPrice()",
+      "totalPrice": 5453.83,
       "discount": 35.9
     },
     "merchant": {
@@ -167,30 +167,30 @@
     },
     "cart": {
       "id": 26971,
-      "subtotal": "cartTotal()",
-      "total": "cartSubTotal()"
+      "subtotal": 5453.83,
+      "total": 5417.93
     },
     "payments": {
       "payment": [
         {
           "method": "CASH",
           "code": "994",
-          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
+          "value": 1787.9169,
+          "changeFor": 1913.0711
         },
         {
           "method": "VOUCHER",
           "code": "368",
-          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+          "value": 3630.0131,
+          "changeFor": 0
         }
       ],
       "charges": {
-        "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
-        "total": "[FUNCTION_HERE] soma dos items com descontos",
-        "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
-        "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
-        "change": "[FUNCTION_HERE] valor do troco devolvido"
+        "subTotal": 5453.83,
+        "total": 5417.93,
+        "totalDiscounts": 35.9,
+        "totalInCash": 1787.9169,
+        "change": 125.1542
       }
     },
     "customer": {
@@ -213,7 +213,7 @@
       "description": "navigate Credit Sports",
       "quantity": 91,
       "unitPrice": 36.07,
-      "totalPrice": "totalPrice()",
+      "totalPrice": 3282.37,
       "discount": 29.89
     },
     "merchant": {
@@ -235,30 +235,30 @@
     },
     "cart": {
       "id": 87604,
-      "subtotal": "cartSubTotal()",
-      "total": "cartTotal()"
+      "subtotal": 3282.37,
+      "total": 3252.48
     },
     "payments": {
       "payment": [
         {
           "method": "VOUCHER",
           "code": "106",
-          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
+          "value": 1073.3184,
+          "changeFor": 0
         },
         {
           "method": "DEBIT",
           "code": "412",
-          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+          "value": 2179.1616,
+          "changeFor": 0
         }
       ],
       "charges": {
-        "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
-        "total": "[FUNCTION_HERE] soma dos items com descontos",
-        "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
-        "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
-        "change": "[FUNCTION_HERE] valor do troco devolvido"
+        "subTotal": 3282.37,
+        "total": 3252.48,
+        "totalDiscounts": 29.89,
+        "totalInCash": 0,
+        "change": 0
       }
     },
     "customer": {
@@ -281,7 +281,7 @@
       "description": "Small throughput Automotive",
       "quantity": 46,
       "unitPrice": 60.847,
-      "totalPrice": "totalPrice()",
+      "totalPrice": 2798.962,
       "discount": 41.98
     },
     "merchant": {
@@ -303,30 +303,30 @@
     },
     "cart": {
       "id": 70656,
-      "subtotal": "cartSubTotal()",
-      "total": "cartTotal()"
+      "subtotal": 2798.962,
+      "total": 2756.928
     },
     "payments": {
       "payment": [
         {
           "method": "VOUCHER",
           "code": "994",
-          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 7%"
+          "value": 909.7862,
+          "changeFor": 0
         },
         {
           "method": "DEBIT",
           "code": "994",
-          "value": "valor pago com o metodo  de pagamento (esse valor corresponde à 33% do cart_total)",
-          "changeFor": "[FUNCTION_HERE] changeFor = troco para X valor, quando a forma de pagamento for dinheiro (cash) então deve colocar aqui o valor pago em dinheiro, esse valor pago em dinheiro equivale à payments_payment[1]_value  + 11%"
+          "value": 1847.1418,
+          "changeFor": 0
         }
       ],
       "charges": {
-        "subTotal": "[FUNCTION_HERE] soma dos itens sem descontos",
-        "total": "[FUNCTION_HERE] soma dos items com descontos",
-        "totalDiscounts": "[FUNCTION_HERE] soma dos descontos dos items",
-        "totalInCash": "[FUNCTION_HERE] valor total pago em dinheiro",
-        "change": "[FUNCTION_HERE] valor do troco devolvido"
+        "subTotal": 2798.962,
+        "total": 2756.928,
+        "totalDiscounts": 41.98,
+        "totalInCash": 0,
+        "change": 0
       }
     },
     "customer": {
