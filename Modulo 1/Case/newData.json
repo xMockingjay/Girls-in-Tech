@@ -1,6 +1,6 @@
 [
   {
-    "order": {
+    "order": { // não precisaria desse objeto, já que o objeto como um todo é um order(pedido) os demais itens estão perfeitos.
       "id": 31781
     },
     "item": {
@@ -18,7 +18,7 @@
       "adress": {
         "country": "South Georgia and the South Sandwich Islands",
         "state": "IA",
-        "city":"Roswell",
+        "city": "Roswell",
         "neighborhood": "Rhode Island",
         "streetName": "Will Branch",
         "number": 63178,
@@ -86,7 +86,7 @@
       "adress": {
         "country": "Saint Lucia",
         "state": "VA",
-        "city":"Battle Creek",
+        "city": "Battle Creek",
         "neighborhood": "Mississipi",
         "streetName": "Wolf Centers",
         "number": 43554,
@@ -154,7 +154,7 @@
       "adress": {
         "country": "Chile",
         "state": "HI",
-        "city":"Greenville",
+        "city": "Greenville",
         "neighborhood": "Maine",
         "streetName": "Jevon Prairie",
         "number": 8252,
@@ -222,7 +222,7 @@
       "adress": {
         "country": "Oman",
         "state": "NV",
-        "city":"San Jose",
+        "city": "San Jose",
         "neighborhood": "North Dakota",
         "streetName": "BernierForks",
         "number": 25419,
@@ -290,7 +290,7 @@
       "adress": {
         "country": "Martinique",
         "state": "OK",
-        "city":"Quincy",
+        "city": "Quincy",
         "neighborhood": "Alabama",
         "streetName": "Shyanne Trail",
         "number": 66249,
