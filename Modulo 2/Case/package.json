@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "nodemon server.js", // isso é um exemplo de script que pode ser usado para iniciar a aplicação com nodemong
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

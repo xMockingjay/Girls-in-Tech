@@ -9,10 +9,16 @@ class MerchantController {
     static readMerchants = (req, res) => {
         res.status(200).json(newMerchantsData);
     }
-
+    /**
+     * Tanto os parametros recebido pela rota e as query-string são strings.
+     * Se para a busca do restaurante você recebe um valor string como parametro e no "banco de dados" for string então ta tudo certo.
+     * Mas para garantir que o valor seja sempre o mesmos é importante fazer o Casting, como na função a baixo
+     * acredito que o id do merchant é um numero, logo ai receber do params uma string o resultado não será o esperado. Vamos garantir isso, veja as mudanças
+     */
     //Busca Merchant por Id
     static readMerchantById = (req, res) => {
-        const index = searchMerchant(req.params.id);
+        const { id } = req.params;
+        const index = searchMerchant(Number(id));
         res.status(200).json(merchantsData[index]);
     }
       
@@ -52,7 +58,7 @@ class MerchantController {
     //Envio de mensagem
     static sendMessage = (req, res) => {
         let index = searchMerchant(req.params.id);
-        newMerchantsData[index].message = `Message: ${req.body.message}. Enviada em ${getDate()}`;
+        newMerchantsData[index].message = `Message: ${req.body.message}. Enviada em ${getDateFormatted()}`;
         res.status(200).send('Mensagem enviada com sucesso!');
     }
 
@@ -63,18 +69,37 @@ function searchMerchant(id) {
 }
 
 function getDate() {
-    let date = new Date();
+    const date = new Date();
+    const day = date.getDay();
+    const month = date.getMonth();
+    const year = date.getFullYear();
+    const hour = date.getHours();
+    const min = date.getMinutes();
+    const sec = date.getSeconds();
 
-    let day = date.getDay();
-    let month = date.getMonth();
-    let year = date.getFullYear();
-    let hour = date.getHours();
-    let min = date.getMinutes();
-    let sec = date.getSeconds();
-
-    let message = `Date: ${day}/${month}/${year} - Hour: ${hour}:${min}:${sec}`;
+    const message = `Date: ${day}/${month}/${year} - Hour: ${hour}:${min}:${sec}`;
 
     return message;
 }
 
+// olha que legal
+const DateHourSeparate = (dateToIsoString) => dateToIsoString.split('T');
+const formatHours = (dateToIsoString) => {
+  const [ _, hours] = DateHourSeparate(dateToIsoString);
+  return hours
+};
+const formatDate = (dateToIsoString) => {
+  const [ date ] = DateHourSeparate(dateToIsoString);
+  const splitDate = date.split('-');
+  const reverseDate = splitDate.reverse();
+  const joinDate = reverseDate.join('-');
+  return joinDate;
+};
+const getDateFormatted = () => {
+    const date = new Date().toISOString();
+    const onlyDate = formatDate(date);
+    const onlyHours = formatHours(date);
+    const formatted = `Date: ${onlyDate} - Hours ${onlyHours}`;
+    return formatted;
+}
 export default MerchantController;
