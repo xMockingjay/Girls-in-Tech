@@ -6,22 +6,27 @@ module.exports = {
       {
         name: 'Lanche',
         createdAt: new Date(),
-        updatedAt: new Date
+        updatedAt: new Date()
       },
       {
         name: 'Hamburguer',
         createdAt: new Date(),
-        updatedAt: new Date
+        updatedAt: new Date()
       },
       {
         name: 'Kids',
         createdAt: new Date(),
-        updatedAt: new Date
+        updatedAt: new Date()
       },
       {
         name: 'Chá',
         createdAt: new Date(),
-        updatedAt: new Date
+        updatedAt: new Date()
+      },
+      {
+        name: 'Bebidas',
+        createdAt: new Date(),
+        updatedAt: new Date()
       }
     ])
   },
