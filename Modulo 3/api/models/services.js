@@ -15,7 +15,13 @@ module.exports = (sequelize, DataTypes) => {
         Services
       } = models;
 
-      Services.belongsToMany(Merchants, { through: 'Merchant_Services'})
+      Services.belongsToMany(Merchants, 
+        { 
+          through: 'Merchant_Services',
+          as: 'merchants',
+          foreignKey: 'service_id'
+        }
+      );
     }
   }
   Services.init({
