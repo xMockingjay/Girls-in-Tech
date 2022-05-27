@@ -2,14 +2,19 @@
 
 module.exports = {
   async up (queryInterface, Sequelize) {
-    await queryInterface.bulkInsert('Brands', [
+    await queryInterface.bulkInsert('Services', [
       {
-        name: 'Outback',
+        name: 'Delivery',
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        name: 'Rei do Mate',
+        name: 'Take away',
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        name: 'Indoor',
         createdAt: new Date(),
         updatedAt: new Date()
       }
@@ -17,6 +22,6 @@ module.exports = {
   },
 
   async down (queryInterface, Sequelize) {
-    await queryInterface.bulkDelete('Brands', null, {});
+    await queryInterface.bulkDelete('Services', null, {});
   }
 };
