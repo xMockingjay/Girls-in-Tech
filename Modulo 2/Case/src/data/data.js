@@ -13,8 +13,8 @@ const merchantsData = [
                 "longitude": -5416788
             }
         },
-        "hq": true,
-        "hqId": false,
+        "isBrand": true,
+        "brandId": false,
         "openingDays": "Wednesday to Sunday",
         "businessHours": {
             "open": "11:00",
@@ -40,8 +40,8 @@ const merchantsData = [
                 "longitude": 9342
             }
         },
-        "hq": false,
-        "hqId": 1,
+        "isBrand": false,
+        "brandId": 1,
         "openingDays": "Saturday",
         "businessHours": [
             {
@@ -73,8 +73,8 @@ const merchantsData = [
                 "longitude": 436534
             }
         },
-        "hq": true,
-        "hqId": false,
+        "isBrand": true,
+        "brandId": false,
         "openingDays": "Tuesday to Thursday",
         "businessHours": {
             "open": "11:00",
@@ -100,8 +100,8 @@ const merchantsData = [
                 "longitude": -845156
             }
         },
-        "hq": false,
-        "hqId": 2,
+        "isBrand": false,
+        "brandId": 2,
         "openingDays": "Tuesday to Thursday",
         "businessHours": {
             "open": "11:00",
