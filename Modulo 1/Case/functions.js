@@ -95,4 +95,3 @@ function change(one, two, total) {
     return Number(((one + two) - total).toFixed(4));
 
 }
-
