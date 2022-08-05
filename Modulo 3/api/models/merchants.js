@@ -19,8 +19,18 @@ module.exports = (sequelize, DataTypes) => {
       } = models;
 
       Merchants.belongsTo(Brands, { foreignKey: 'brand_id'} )
-      Merchants.belongsToMany(Services, { through: 'Merchant_Services'} );
-      Merchants.hasOne(Addresses, { foreignKey: 'merchant_id'} );
+      Merchants.belongsToMany(Services, 
+        { 
+          through: 'Merchant_Services',
+          as: 'services',
+          foreignKey: 'merchant_id'
+        } 
+      );
+      Merchants.hasOne(Addresses, 
+        {
+          foreignKey: 'merchant_id'
+        } 
+      );
       Merchants.hasOne(OpeningHours, { foreignKey: 'merchant_id'} );
     }
   }

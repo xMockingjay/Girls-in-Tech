@@ -18,7 +18,6 @@ module.exports = {
         type: Sequelize.TIME
       },
       merchant_id: {
-        allowNull: false,
         type: Sequelize.INTEGER,
         references: { model: 'merchants', key: 'id'}
       },

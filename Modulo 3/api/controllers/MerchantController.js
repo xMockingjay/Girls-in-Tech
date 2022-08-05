@@ -1,10 +1,20 @@
-const { Merchants } = require("../models");
+const { Addresses, Merchants, Services } = require("../models");
 
 module.exports = class MerchantController {
     //método GET para listar todos Merchants
     static async listMerchants(req, res) {
         try {
-            const allMerchants = await Merchants.findAll();
+            const allMerchants = await Merchants.findAll(
+                {
+                    include: [
+                        {
+                            model: Services,
+                            as: 'services',
+                            through: { attributes: [] }
+                        }
+                    ]
+                }
+            );
             return res.status(200).json(allMerchants);
         } catch (error) {
             return res.status(500).json(error.message);
@@ -37,7 +47,7 @@ module.exports = class MerchantController {
     //método PUT para atualizar dados de um Merchant
     static async updateMerchant(req, res) {
         const { id } = req.params;
-        const newInformation = req.body;
+        const { services, ...newInformation } = req.body;
         try {
             await Merchants.update(newInformation, { 
                 where: {
@@ -49,6 +59,11 @@ module.exports = class MerchantController {
                     id:Number(id)
                 } 
             });
+
+            if ( services && services.length > 0 ) {
+                updatedMerchant.setServices(services);
+            }
+            
             return res.status(200).json(updatedMerchant);
         } catch (error) {
             return res.status(500).json(error.message);

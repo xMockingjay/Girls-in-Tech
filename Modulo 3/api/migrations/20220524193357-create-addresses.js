@@ -30,7 +30,6 @@ module.exports = {
         type: Sequelize.STRING
       },
       merchant_id: {
-        allowNull: false,
         type: Sequelize.INTEGER,
         references: { model: 'merchants', key: 'id'}
       },
